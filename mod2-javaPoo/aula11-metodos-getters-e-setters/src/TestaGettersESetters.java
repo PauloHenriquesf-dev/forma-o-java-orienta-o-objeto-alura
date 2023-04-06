@@ -6,6 +6,7 @@ public class TestaGettersESetters {
 		Conta contaA = new Conta();
 		
 		//atribuindo valor a saldo:
+		//OBS: setSaldo foi criado para poder acessar o atributo saldo, ja que esse atributo esta privado
 		contaA.setSaldo(100);
 		
 		//verificando o valor de saldo:
